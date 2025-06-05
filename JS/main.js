@@ -13,6 +13,7 @@ const buscarUsuario = (usuarioIngresado, claveIngresada) => {
     return usuarios.find(user => user.usuario === usuarioIngresado && user.clave === claveIngresada);
 };
 
+
 // Función anónima para registrar
 const registrarUsuario = function() {
     const nuevoUsuario = prompt("Ingrese un nombre de usuario:");
