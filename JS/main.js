@@ -1,13 +1,13 @@
 // Array de usuarios (objetos)
 const usuarios = [
-    { usuario: "admin", clave: "admin123" },
-    { usuario: "valeria", clave: "coder2024" }
+    { usuario: "demo", clave: "demo1234" },
+    { usuario: "invitado", clave: "invitado123" }
 ];
 
 // Variables
 let intentos = 0;
 const MAX_INTENTOS = 3;
-7
+
 // Función flecha para buscar usuario
 const buscarUsuario = (usuarioIngresado, claveIngresada) => {
     return usuarios.find(user => user.usuario === usuarioIngresado && user.clave === claveIngresada);
