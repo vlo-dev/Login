@@ -32,3 +32,8 @@ Se implementaron interacciones simples a través de **prompt** y **alert**, brin
 
 **console.log**: para registrar información útil durante la ejecución.
 
+
+
+# 🔑 Usuarios de prueba
+
+Para probar el simulador podés ingresar con **demo** / **demo1234** o con **invitado** / **invitado123**. También podés registrar un usuario nuevo desde el menú.
